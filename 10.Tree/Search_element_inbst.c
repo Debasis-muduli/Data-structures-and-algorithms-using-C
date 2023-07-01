@@ -18,8 +18,8 @@ struct node* newNode(int item) {
 
 // Inorder Traversal
 void inorder(struct node *root) {
-  if (root != NULL) {
-
+  if (root != NULL) 
+          return;
     inorder(root->left);
     printf("%d -> ", root->key);
     inorder(root->right);
